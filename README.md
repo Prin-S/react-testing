@@ -1,3 +1,3 @@
-# vite-template
+# react-testing
 
-A Vite template
+For https://www.theodinproject.com/lessons/node-path-react-new-introduction-to-react-testing

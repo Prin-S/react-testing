@@ -1,12 +1,18 @@
 import { useState } from 'react';
 
 function App() {
+  const [heading, setHeading] = useState("Magnificent Monkeys");
+
+  const clickHandler = () => {
+    setHeading("Radical Rhinos");
+  };
 
   return (
     <>
-      <p>
-        test
-      </p>
+      <button type="button" onClick={clickHandler}>
+        Click Me
+      </button>
+      <h1>{heading}</h1>
     </>
   )
 }
